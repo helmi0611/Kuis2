@@ -1,14 +1,14 @@
-import React from "react";
+import React from "react"
 
-function KotakTeks(props) {
-  return (
-    <>
-      <label htmlFor={props.teks} placeholder={props.teks}>
-        {props.teks}
-      </label>
-      <input type="text" id={props.teks} />
-    </>
-  );
+function KotakTeks() {
+    return (
+        <>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Masukan Email"></input>
+        <label for="katasandi">Kata Sandi</label>
+        <input type="password" id="katasandi" name="katasandi" placeholder="Masukan Kata Sandi"></input>
+        </>
+    )
 }
 
 export default KotakTeks;

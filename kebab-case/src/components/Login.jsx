@@ -1,10 +1,14 @@
+import React from "react"
+import KotakTeks from "./KotakTeks"
+import Tombol from "./Tombol"
 
-export default function Login(){
+function Login () {
     return(
-        <>
-            <KotakTeks kolom="email" ph="Email"/>
-            <KotakTeks kolom="password" ph="Password"/>
-            <Tombol>Login</Tombol>
-        </>
+    <>        
+        <KotakTeks/>
+        <Tombol/>
+    </>
     )
 }
+
+export default Login;
