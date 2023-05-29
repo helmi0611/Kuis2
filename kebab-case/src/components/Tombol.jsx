@@ -1,7 +1,12 @@
-import React from "react";
-
-function Tombol(props) {
-  return <button>Login</button>;
+import * as React from "react";
+function Tombol() {
+  return (
+    <>
+      <div>
+        <button type="button">Click Me</button>
+      </div>
+    </>
+  );
 }
 
 export default Tombol;
