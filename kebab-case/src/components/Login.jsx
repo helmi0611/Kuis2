@@ -1,13 +1,13 @@
-import React from "react"
-import KotakTeks from "./KotakTeks"
-import Tombol from "./Tombol"
+import React from 'react'
+import KotakTeks from './KotakTeks'
+import Tombol from './Tombol'
 
-function Login () {
+function Login(){
     return(
-    <>        
-        <KotakTeks/>
-        <Tombol/>
-    </>
+        <>
+            <KotakTeks/>
+            <Tombol/>
+        </>
     )
 }
 
